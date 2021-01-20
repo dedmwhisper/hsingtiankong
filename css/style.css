@@ -177,6 +177,11 @@ filter: brightness(1);
   /*  height: 100px;*/
     animation: loading 1s ease infinite alternate;
   }
+  .loading >p{
+    padding: 30px;
+    color:#fff;
+    font-size: 20px;
+  }
   
   @keyframes loading {
     from {
@@ -330,6 +335,14 @@ p.b4{
 }
 img.gamestartbg{
   z-index: 2;
+}
+img.gameoverbg{
+  z-index: 3;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  top: 0;
 }
 .btn {
   z-index: 2;
