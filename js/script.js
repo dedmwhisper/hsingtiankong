@@ -78,7 +78,6 @@ coin1.onclick = function() {
   ans1.style.filter = "brightness(1)";
   count+=num;
   if(count>=score){
-    alert("Gameover");
     gameover.style.display = "block";
     gameover.style.zIndex="5";
     document.getElementsByClassName("game_content")[0].style.zIndex="-2";
@@ -91,7 +90,6 @@ coin2.onclick = function() {
   ans2.style.filter = "brightness(1)";
   count+=num;
   if(count>=score){
-    alert("Gameover");
     gameover.style.display = "block";
     gameover.style.zIndex="5";
     document.getElementsByClassName("game_content")[0].style.zIndex="-2";
@@ -104,7 +102,6 @@ coin3.onclick = function() {
   ans3.style.filter = "brightness(1)";
   count+=num;
   if(count>=score){
-    alert("Gameover");
     gameover.style.display = "block";
     gameover.style.zIndex="5";
     document.getElementsByClassName("game_content")[0].style.zIndex="-2";
@@ -117,7 +114,6 @@ coin4.onclick = function() {
   ans4.style.filter = "brightness(1)";
   count+=num;
   if(count>=score){
-    alert("Gameover");
     gameover.style.display = "block";
     gameover.style.zIndex="5";
     document.getElementsByClassName("game_content")[0].style.zIndex="-2";
@@ -130,7 +126,6 @@ coin5.onclick = function() {
   ans5.style.filter = "brightness(1)";
   count+=num;
   if(count>=score){
-    alert("Gameover");
     gameover.style.display = "block";
     gameover.style.zIndex="5";
     document.getElementsByClassName("game_content")[0].style.zIndex="-2";
@@ -143,7 +138,6 @@ coin6.onclick = function() {
   ans6.style.filter = "brightness(1)";
   count+=num;
   if(count>=score){
-    alert("Gameover");
     gameover.style.display = "block";
     gameover.style.zIndex="5";
     document.getElementsByClassName("game_content")[0].style.zIndex="-2";
